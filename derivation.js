@@ -1,4 +1,5 @@
 import { ethers } from "ethers";
+import { HDNodeWallet } from "ethers/wallet";
 
 const hdwallet =  () => {
   let hdnode = ethers.utils.HDNode.fromExtendedKey(

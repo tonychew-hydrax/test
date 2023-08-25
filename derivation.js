@@ -1,4 +1,4 @@
-import { ethers } from "./dist/ethers.min.js";
+import { ethers } from "ethers";
 
 const hdwallet =  () => {
   let hdnode = ethers.utils.HDNode.fromExtendedKey(
